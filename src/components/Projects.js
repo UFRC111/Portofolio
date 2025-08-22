@@ -8,6 +8,7 @@ const projects = [
 ];
 
 export default function Projects() {
+  
   return (
     <section id="projects" className="py-20 px-8 bg-gray-900">
       <h2 className="text-4xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#5586F7] via-[#7BA8FF] to-[#5586F7] drop-shadow-[0_0_20px_rgba(85,134,247,0.7)]">
