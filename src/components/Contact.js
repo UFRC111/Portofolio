@@ -14,7 +14,7 @@ export default function Contact() {
       </p>
       <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
         <a
-          href={`mailto:mohmmadmohy52@gmail.com`}
+          href={`mailto:dodgg353@gmail.com.com`}
           className="inline-block px-8 py-3 bg-gradient-to-r from-[#5586F7] via-[#7BA8FF] to-[#5586F7] text-white font-semibold rounded-lg shadow-[0_0_20px_rgba(85,134,247,0.8)] hover:shadow-[0_0_35px_rgba(85,134,247,1)] hover:scale-105 transition-all duration-300"
         >
           Send Email
