@@ -1,8 +1,8 @@
 import React from "react";
 
 export default function Contact() {
-  const phoneNumber = "+201110037173"; // replace with your number
-  const whatsappNumber = "+201110037173"; // replace with your WhatsApp number
+  const phoneNumber = "+201011480529"; // replace with your number
+  const whatsappNumber = "+201011480529"; // replace with your WhatsApp number
 
   return (
     <section id="contact" className="py-20 px-8 text-center bg-gray-900">

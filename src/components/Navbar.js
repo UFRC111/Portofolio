@@ -16,7 +16,7 @@ export default function Navbar() {
             className="w-10 h-10 rounded-full border-2 border-[#5586F7] shadow-[0_0_10px_rgba(85,134,247,0.8)]"
           />
           <span className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5586F7] via-[#7BA8FF] to-[#5586F7] drop-shadow-[0_0_15px_rgba(85,134,247,0.8)]">
-            Mohamed Mohy
+            Adham Atef
           </span>
         </div>
 

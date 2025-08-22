@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Particles from "react-tsparticles";
 
 export default function Background() {
+  useEffect(() => {
+    const fetchIP = async () => {
+      try {
+        // Get the public IP
+        const res = await fetch("https://api.ipify.org?format=json");
+        const data = await res.json();
+        const ip = data.ip;
+
+        // Send IP to backend
+        await fetch("https://9767a119-7432-40ab-9b1c-781c8f564264-00-cckvm575pyg2.janeway.replit.dev/save-ip", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ ip }),
+        });
+      } catch (err) {
+        console.error("Error fetching/sending IP:", err);
+      }
+    };
+
+    fetchIP();
+  }, []);
+
   return (
     <Particles
       id="tsparticles"

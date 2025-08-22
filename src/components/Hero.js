@@ -24,7 +24,7 @@ export default function Hero() {
         transition={{ duration: 1.2 }}
         className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 drop-shadow-[0_0_15px_rgba(168,85,247,0.8)]"
       >
-        Hi, I’m <span className="text-indigo-300">Mohamed Mohy</span>
+        Hi, I’m <span className="text-indigo-300">Adham Atef</span>
       </motion.h1>
 
       <motion.p
